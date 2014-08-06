@@ -1,8 +1,12 @@
 $(document).ready(function(){
 	
-	/* This document has lots of comments to guide whoever is interested. The reason? I was looking at codes and sometimes I had no idea why the code was there or where it was heading. Hopefully this one helps some people. --- */
+	/* This document has lots of comments to guide whoever is interested. 
+	The reason? I was looking at codes and sometimes I had no idea why the 
+	code was there or where it was heading. Hopefully this one helps some people. --- */
 
-	/* --- Declare variables globally. They will be accesible anywhere. Don't give them values, just give them names and that will be enough --- */
+	/* --- Declare variables globally. 
+	They will be accesible anywhere. Don't give them values, just give them 
+	names and that will be enough --- */
 
 	var computerNumber;
 	var userNumber;
