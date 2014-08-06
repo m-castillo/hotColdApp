@@ -43,7 +43,7 @@ $(document).ready(function(){
 		        event.preventDefault();
 
 
-		        closeNumber = Math.abs(computerNumber - userNumber); /* --- Math.abs gives you an absolute number... that means there are no negative number. The purpose of this is to find out if the user is closer or further than the random number --- */
+		        closeNumber = Math.abs(computerNumber - userNumber); /* --- Math.abs gives you an absolute number... that means there are no negative numbers. The purpose of this is to find out if the user is closer or further than the random number --- */
 
 		        if (userNumber == computerNumber) { /* --- If both numbers are the same, then bingo! --- */
 		            $("#feedback").text("You got it!");
